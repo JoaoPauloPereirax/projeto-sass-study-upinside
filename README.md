@@ -14,3 +14,15 @@ sass _cdn/scss/style.scss  _cdn/css/style.css
 ```
 sass _cdn/scss:_cdn/css
 ```
+
+## Automatizando o sass
+```
+sass _cdn/scss:_cdn/css --watch
+```
+Este comando faz com que o sistema fique sendo monitorado pelo sass.
+
+## Automatizando o sass agora com os arquivos comprimidos
+```
+sass _cdn/scss:_cdn/css --watch --style=compressed
+```
+Este comando deve ser evitado na camada de desenvolvimento devido a demora de compilação.
